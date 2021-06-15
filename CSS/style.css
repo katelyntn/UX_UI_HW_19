@@ -5,6 +5,10 @@ body{
     margin: auto;
     height: 100vh;
   }
+
+  .scolling-box {
+    scroll-behavior: smooth;
+  }
  
   ul {
     display:flex;
@@ -37,7 +41,7 @@ body{
   flex-direction:column;
   }
   
- li a {
+ a {
     display: inline-block;
     font-family:'Mulish', sans-serif;
     font-weight: 100;
@@ -48,7 +52,7 @@ body{
     text-transform:uppercase;
   }
   
-  li a:hover {
+ a:hover {
     color:rgb(255, 191, 71);
   }
 
@@ -108,15 +112,15 @@ body{
   /* <!--  My UX Skills section coded using CSS flex --> */
 
   .flexContainer{
-    display: flex;
-    flex-direction:column;
+    display: inline-flex;
+    flex-direction:row;
   }
 
-  section h2 {
+  h2 {
     font-family:'Lora', serif;
     font-size:30px;
     text-align:center;
-    padding:10px;
+    padding:50px;
   }
 
   h3 {
@@ -129,7 +133,7 @@ body{
     display:flex;
     font-family:'Mulish', sans-serif;
     font-weight: 100;
-    width: 600px;
+    width: 30% 30% 30%;
     margin-left: 50px;
   }
 
@@ -181,12 +185,13 @@ body{
     border-radius: 3px;
   }
 
-  .contacts {
+  p3 {
     display: block;
     text-align: center;
-    padding: 70px;
+    margin-bottom: 60px;
     font-family:'Mulish', sans-serif;
     font-weight: 100;
+
   }
   
 

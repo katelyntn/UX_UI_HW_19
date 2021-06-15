@@ -12,13 +12,3 @@ $('.myworkimg').hover(function(){
     console.log("mouse leave");
 });
 
-
-$('.nav').on('click', function(){
-    console.log("clicked");
-    $('html, body').animate(
-        {
-        scrollTop: $(hash).offset().top
-    },
-    800
-    );
-});
